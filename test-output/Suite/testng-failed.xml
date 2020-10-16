@@ -6,14 +6,16 @@
   </listeners>
   <test thread-count="5" name="Dollar Days Test(failed)">
     <classes>
-      <class name="com.dollardays.testcases.WishlistPageB4loginTestcase">
+      <class name="com.dollardays.testcases.Team1LoginTestcase">
         <methods>
-          <include name="VerifyWishlistcartbuttontestcase"/>
-          <include name="VerifyViewallprojectsbutton"/>
+          <include name="tc_05_SignInPageValidEmailAddress_InvalidPassword"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="tc_SignInPage_Display_SignIn_Name"/>
           <include name="quit"/>
           <include name="setUpBrowser"/>
         </methods>
-      </class> <!-- com.dollardays.testcases.WishlistPageB4loginTestcase -->
+      </class> <!-- com.dollardays.testcases.Team1LoginTestcase -->
     </classes>
   </test> <!-- Dollar Days Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
