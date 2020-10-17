@@ -9,8 +9,8 @@
       <class name="com.dollardays.testcases.Team1LoginTestcase">
         <methods>
           <include name="tc_05_SignInPageValidEmailAddress_InvalidPassword"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
+          <include name="tc_03_SignInPageEmptyUsername_EmptyPassword"/>
+          <include name="tc_04_SignInPageInValidEmailAddressFormat"/>
           <include name="tc_SignInPage_Display_SignIn_Name"/>
           <include name="quit"/>
           <include name="setUpBrowser"/>
